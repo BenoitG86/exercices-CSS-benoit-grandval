@@ -1,0 +1,51 @@
+:root
+{
+    --couleur-principale: blue;
+    --espacement: 16px;
+}
+
+p {
+    color: red;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: hsl(0, 100%, 50%);
+    color: hwb(0 0% 0%);
+
+    color: white;
+    color: #ffffff;
+    color: rgb(255, 255, 255);
+    color: hsl(0, 0%, 100%);
+    color: hwb(0 100% 0%);
+
+    color: black;
+    color: #000000;
+    color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 0%);
+    color: hwb(0 0% 100%);
+
+    color: brown;
+    color: #a52a2a;
+    color: rgb(165, 42, 42);
+    color: hsl(0, 59%, 41%);
+    color: hwb(0 16% 35%);
+}
+
+#button-red {
+
+    background-color: #bd0419;
+}
+
+#button-yellow {
+
+    background-color: #eec23c;
+}
+
+#button-blue {
+
+    background-color: #0042ad;
+}
+
+#button-green {
+
+    background-color: #008c57;
+}

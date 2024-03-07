@@ -1,0 +1,83 @@
+* {
+    color: white;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    word-spacing: 1.5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+
+body {
+    background-image: url('../images/bg-spider.png');
+}
+
+q {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.6) 2px 2px 4px;
+}
+
+q:hover {
+    text-shadow: rgba(0, 0, 0, 0.7) 6px 6px 5px;
+    transition: all 1s ease-in-out;
+}
+
+h1 {
+    line-height: 1;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+    text-shadow: darkred 4px 4px 3px, darkblue -4px -4px 3px;
+    text-align: center;
+}
+
+h1:hover {
+    text-shadow: darkred 6px 6px 4px, darkblue -6px -6px 4px;
+}
+
+.text-the {
+    font-family: 'Freehand';
+    font-size: 64px;
+    text-transform: lowercase;
+}
+
+.text-amazing {
+    font-size: 80px;
+}
+
+
+.tagline {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 19px;
+    word-spacing: 3.5px;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17.5px;
+    word-spacing: 0.4px;
+}

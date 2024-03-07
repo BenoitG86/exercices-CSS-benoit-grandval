@@ -1,0 +1,31 @@
+button {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: large;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+button:hover {
+    box-shadow: 5px 5px 0px black;
+}
+
+#hidden
+{
+    display: none;
+}
+
+button:hover > #hidden
+{
+    display: inline;
+}
+
+button:hover > #shown
+{
+    display: none;
+}

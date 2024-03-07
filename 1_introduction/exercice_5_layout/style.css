@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+header, footer {
+    color: white;
+    background-color: rgb(73, 73, 73);
+    text-align: center;
+    padding: 15px;
+}
+
+body {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+p, h2
+{
+    margin : 0 0 20px;
+
+}
+
+main {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+}
+
+section {
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#section_grey {
+    background-color: lightgray;
+}
+
+

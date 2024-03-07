@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+
+.box-1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 5px solid darkviolet;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.box-2 {
+    width: 200px;
+    height: 100px;
+    text-align: right;
+    border: 10px solid black;
+    border-top-left-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: darkgreen;
+    box-shadow: 10px 10px black;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 50%;
+    color: white;
+}
+
+.box-4 {
+    text-align: center;
+    background-color: orange;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 9999px;
+
+}
+
+.box-5 {
+    text-align: left;
+    background-color: #485ec2;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 5px;
+    color: white;
+    transform: rotate(15deg);
+    /* box-shadow: 25px 0px darkblue, 25px 25px darkblue, 0px 25px darkblue; */
+    border-right: solid 25px darkblue;
+    border-bottom: solid 25px darkblue;
+}
+
+
+.box-bonus {
+    width: 0;
+    height: 0;
+    border: 100px solid;
+    border-color: crimson cyan brown violet;
+
+}
+
+.box-bonus-2 {
+    width: 0;
+    height: 0;
+    border: 100px solid;
+    border-color: transparent transparent darkorchid transparent;
+
+}
+
+#japon {
+    background: red;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
